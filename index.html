@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do You Love Me?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.pixabay.com/photo/2022/01/07/20/45/love-6922640_1280.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6x07D7GN-g73QIaILRu0qT2FFUISHfPJybQ&s"
+          alt="Love Icon"
+        />
+        <h1>Do You Love Me?</h1>
+      </div>
+      <div class="div-btn">
+        <button class="no">NO</button>
+        <button class="yes" onclick="handleYes()">YES</button>
+      </div>
+
+      <div id="loader" style="display: none">
+        <h2>Sending love...</h2>
+        <div class="heart"></div>
+      </div>
+
+      <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
